@@ -65,7 +65,7 @@ npm start
 
 ### 1. List Transactions
 
-- **Endpoint:** `/api/transactions`
+- **Endpoint:** `/transaction?keyword=${}&month=${}&page=${}`
 - **Method:** GET
 - **Parameters:**
   - `month` (string): Selected month (e.g., '03' for March)
@@ -74,21 +74,21 @@ npm start
 
 ### 2. Transaction Statistics
 
-- **Endpoint:** `/api/statistics`
+- **Endpoint:** `/statics?month=${}`
 - **Method:** GET
 - **Parameters:**
   - `month` (string): Selected month
 
 ### 3. Bar Chart Data
 
-- **Endpoint:** `/api/bar-chart`
+- **Endpoint:** `/chart?month=${}`
 - **Method:** GET
 - **Parameters:**
   - `month` (string): Selected month
 
 ### 4. Pie Chart Data
 
-- **Endpoint:** `/api/pie-chart`
+- **Endpoint:** `piechart?month=${}`
 - **Method:** GET
 - **Parameters:**
   - `month` (string): Selected month
@@ -114,7 +114,14 @@ The pie chart component illustrates the distribution of items across different c
 ## Screenshots
 
 Default month selected
+![Screenshot (246)](https://github.com/rachit3014/Roxiler-Assignment-/assets/84663169/53f333e6-3755-4945-bc96-6bcd2b5adc34)
 
-Statistics and Bar Chart of default month
+Statistics 
+![Screenshot (247)](https://github.com/rachit3014/Roxiler-Assignment-/assets/84663169/0d5374f3-2b2e-453c-9c85-20864abd04d1)
+
+Bar Chart of default month
+![Screenshot (248)](https://github.com/rachit3014/Roxiler-Assignment-/assets/84663169/acd45ada-33af-4135-b4c0-ccd4b00532a0)
+
 
 Pie Chart of default month
+![Screenshot (249)](https://github.com/rachit3014/Roxiler-Assignment-/assets/84663169/cc02d3ca-eee6-4012-9a09-e570a1e51da4)
